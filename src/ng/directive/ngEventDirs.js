@@ -37,10 +37,10 @@
  * Events that are handled via these handler are always configured not to propagate further.
  */
 var ngEventDirectives = {};
-forEach(
+forEach( 
   'click dblclick mousedown mouseup mouseover mouseout mousemove mouseenter mouseleave keydown keyup keypress submit focus blur copy cut paste'.split(' '),
   function(name) {
-    var directiveName = directiveNormalize('ng-' + name);
+    var directiveName = directiveNormalize('acute-' + name);
     ngEventDirectives[directiveName] = ['$parse', function($parse) {
       return {
         compile: function($element, attr) {
