@@ -1183,7 +1183,7 @@ function angularInit(element, bootstrap) {
   var elements = [element],
       appElement,
       module,
-      names = ['ng:app', 'ng-app', 'x-ng-app', 'data-ng-app'],
+      names = ['acute:app', 'acute-app', 'x-acute-app', 'data-acute-app'],
       NG_APP_CLASS_REGEXP = /\sng[:\-]app(:\s*([\w\d_]+);?)?\s/;
 
   function append(element) {
