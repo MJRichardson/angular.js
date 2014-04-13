@@ -205,7 +205,7 @@ var ngRepeatDirective = ['$parse', '$animate', function($parse, $animate) {
     terminal: true,
     $$tlb: true,
     link: function($scope, $element, $attr, ctrl, $transclude){
-        var expression = $attr.ngRepeat;
+        var expression = $attr.acuteRepeat;
         var match = expression.match(/^\s*([\s\S]+?)\s+in\s+([\s\S]+?)(?:\s+track\s+by\s+([\s\S]+?))?\s*$/),
           trackByExp, trackByExpGetter, trackByIdExpFn, trackByIdArrayFn, trackByIdObjFn,
           lhs, rhs, valueIdentifier, keyIdentifier,
