@@ -1,7 +1,7 @@
 'use strict';
 
-ngRouteModule.directive('ngView', ngViewFactory);
-ngRouteModule.directive('ngView', ngViewFillContentFactory);
+ngRouteModule.directive('acuteView', ngViewFactory);
+ngRouteModule.directive('acuteView', ngViewFillContentFactory);
 
 
 /**
