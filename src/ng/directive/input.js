@@ -865,10 +865,10 @@ var inputDirective = ['$browser', '$sniffer', function($browser, $sniffer) {
   };
 }];
 
-var VALID_CLASS = 'ng-valid',
-    INVALID_CLASS = 'ng-invalid',
-    PRISTINE_CLASS = 'ng-pristine',
-    DIRTY_CLASS = 'ng-dirty';
+var VALID_CLASS = 'acute-valid',
+    INVALID_CLASS = 'acute-invalid',
+    PRISTINE_CLASS = 'acute-pristine',
+    DIRTY_CLASS = 'acute-dirty';
 
 /**
  * @ngdoc type
