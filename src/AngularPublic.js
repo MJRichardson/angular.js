@@ -158,7 +158,7 @@ function publishExternalAPI(angular){
             ngBind: ngBindDirective,
             ngBindHtml: ngBindHtmlDirective,
             ngBindTemplate: ngBindTemplateDirective,
-            ngClass: ngClassDirective,
+            acuteClass: ngClassDirective,
             ngClassEven: ngClassEvenDirective,
             ngClassOdd: ngClassOddDirective,
             ngCloak: ngCloakDirective,

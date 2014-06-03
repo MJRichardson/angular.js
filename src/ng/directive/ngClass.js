@@ -1,7 +1,7 @@
 'use strict';
 
 function classDirective(name, selector) {
-  name = 'ngClass' + name;
+  name = 'acuteClass' + name;
   return function() {
     return {
       restrict: 'AC',
@@ -15,7 +15,7 @@ function classDirective(name, selector) {
         });
 
 
-        if (name !== 'ngClass') {
+        if (name !== 'acuteClass') {
           scope.$watch('$index', function($index, old$index) {
             // jshint bitwise: false
             var mod = $index & 1;
