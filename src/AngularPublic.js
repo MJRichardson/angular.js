@@ -166,7 +166,7 @@ function publishExternalAPI(angular){
             ngForm: ngFormDirective,
             acuteHide: ngHideDirective,
             ngIf: ngIfDirective,
-            ngInclude: ngIncludeDirective,
+            acuteInclude: ngIncludeDirective,
             ngInit: ngInitDirective,
             ngNonBindable: ngNonBindableDirective,
             ngPluralize: ngPluralizeDirective,
@@ -186,7 +186,7 @@ function publishExternalAPI(angular){
             ngValue: ngValueDirective
         }).
         directive({
-          ngInclude: ngIncludeFillContentDirective
+          acuteInclude: ngIncludeFillContentDirective
         }).
         directive(ngAttributeAliasDirectives).
         directive(ngEventDirectives);

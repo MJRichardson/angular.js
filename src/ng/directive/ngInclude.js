@@ -170,7 +170,7 @@ var ngIncludeDirective = ['$http', '$templateCache', '$anchorScroll', '$animate'
     transclude: 'element',
     controller: angular.noop,
     compile: function(element, attr) {
-      var srcExp = attr.ngInclude || attr.src,
+      var srcExp = attr.acuteInclude || attr.src,
           onloadExp = attr.onload || '',
           autoScrollExp = attr.autoscroll;
 
@@ -252,7 +252,7 @@ var ngIncludeFillContentDirective = ['$compile',
     return {
       restrict: 'ECA',
       priority: -400,
-      require: 'ngInclude',
+      require: 'acuteInclude',
       link: function(scope, $element, $attr, ctrl) {
         $element.html(ctrl.template);
         $compile($element.contents())(scope);
